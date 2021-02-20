@@ -1,0 +1,81 @@
+.projects {
+    height: 100vh;
+    background: linear-gradient(to right, rgb(26, 26, 26), rgb(2, 2, 2));
+}
+
+.project-container {
+    position: relative;
+    top: 10vh;
+}
+
+.work-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.work-col {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-card {
+    position: relative;
+    min-height: 38vh;
+    width: 36rem;
+    text-align: center;
+}
+
+.trackid-img {
+    position: relative;
+    top: 10vh;
+    height: auto;
+    width: 30rem;
+}
+
+.stussy-img {
+    position: relative;
+    top: 2vh;
+    height: auto;
+    width: 15rem;
+}
+
+.caltrends-img {
+    position: relative;
+    top: 4vh;
+    height: auto;
+    width: 16rem;
+}
+
+.br8s-img {
+    position: relative;
+    top: 10vh;
+    height: auto;
+    width: 20rem;
+}
+
+.work-link {
+    visibility: hidden;
+}
+
+.trackid-links {
+    position: relative;
+    top: 20vh;
+}
+
+.stussy-links {
+    position: relative;
+    top: 3vh;
+}
+
+.caltrends-links {
+    position: relative;
+    top: 10vh;
+}
+
+.br8s-links {
+    position: relative;
+    top: 15vh;
+}

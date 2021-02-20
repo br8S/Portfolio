@@ -1,0 +1,75 @@
+@import url("https://use.typekit.net/dvn0fhq.css");
+@import url("nav.css");
+@import url("work.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+body {
+    font-family: gothicus, serif;   
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.outer-container {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(to right, rgb(26, 26, 26), rgb(2, 2, 2));
+}
+
+.name {
+    font-size: 13rem;
+    position: relative;
+    top: 20vh;
+    text-align: center;
+}
+
+.first-name {
+    position: relative;
+    top: 5vh;
+}
+
+.last-name {
+    position: relative;
+    top: -5vh;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20vh;
+    justify-content: center;
+}
+
+.github-img {
+    height: 3vh;
+    margin: 1.5vh;
+}
+
+.linkedin-img {
+    height: 3vh;
+    margin: 1.5vh;
+}
+
+@media only screen and (max-width: 1170px) {
+    .projects {
+        height: 200vh;
+    }
+
+    .project-card {
+        min-height: 40vh;
+    }
+}

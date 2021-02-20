@@ -1,0 +1,93 @@
+.navigation {
+    background: linear-gradient(to right, rgb(26, 26, 26), rgb(2, 2, 2));
+    height: 100vh;
+}
+
+.nav-bar {
+    height: 50vh;
+    z-index: 3;
+}
+
+.nav-zones {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    z-index: 3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    height: 50vh;
+    width: 30rem;
+    top: 20vh;
+}
+
+span {
+    display: inline-block;
+    font-family: gothicus, serif;   
+    font-weight: 300;
+    color: #fff;
+    font-size: 180px;
+    text-transform: lowercase;
+    pointer-events: none;
+    transition: transform 0.1s linear;
+}
+
+.cursor {
+    z-index: 4;
+    pointer-events: none;
+    position: absolute;
+    width: .6rem;
+    height: .6rem;
+    background-color: #fff;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+}
+
+.link-grow {
+    transform: scale(6);
+}
+
+.home-div {
+    position: relative;
+    top: 7vh;
+    left: -8vh;
+    z-index: 0;
+    width: 24rem;
+}
+
+.resume-div {
+    position: relative;
+    z-index: 0;
+}
+
+.work-div {
+    position: relative;
+    top: -7vh;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -67vh;
+    z-index: 2;
+    font-size: 13rem;
+    text-align: center;
+}
+
+.home {
+    position: relative;
+    top: 12vh;
+    left: -15%;
+}
+
+.work {
+    position: relative;
+    top: -12vh;
+    left: 1vw;
+}
