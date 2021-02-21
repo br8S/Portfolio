@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: whitesmoke;
-    overflow-x: hidden;
+    overflow-x: none;
 }
 
 .outer-container {
@@ -71,5 +71,26 @@ header {
 
     .project-card {
         min-height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .name {
+        font-size: 8rem;
+        top: 25vh;
+    }
+    
+    .first-name {
+        position: relative;
+        top: 3vh;
+    }
+
+    .last-name {
+        position: relative;
+        top: -3vh;
+    }   
+
+    .social-links {
+        top: 30vh;
     }
 }

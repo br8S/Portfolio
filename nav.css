@@ -91,3 +91,13 @@ span {
     top: -12vh;
     left: 1vw;
 }
+
+@media only screen and (max-width: 700px) {
+    span {
+        font-size: 140px;
+    }
+
+    .nav-zones {
+        top: 30vh;
+    }
+}

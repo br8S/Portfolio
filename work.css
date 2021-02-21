@@ -79,3 +79,21 @@
     position: relative;
     top: 15vh;
 }
+
+@media only screen and (max-width: 700px) {
+    .trackid-img {
+        width: 25rem;
+    }
+
+    .stussy-img {
+        width: 10rem;
+    }
+
+    .caltrends-img {
+        width: 11rem;
+    }
+
+    .br8s-img {
+        width: 15rem;
+    }
+}
