@@ -114,4 +114,8 @@ header {
     .social-links {
         top: 30vh;
     }
+
+    .arrow-link {
+        display: none;
+    }
 }
