@@ -72,6 +72,18 @@ header {
     margin: 1.5vh;
 }
 
+.arrow-link {
+    display: flex;
+    position: relative;
+    top: 30vh;
+    justify-content: center;
+}
+
+.arrow-img{
+    transform: rotate(90deg);
+    height: 4vh;
+}
+
 @media only screen and (max-width: 1170px) {
     .projects {
         height: 200vh;
