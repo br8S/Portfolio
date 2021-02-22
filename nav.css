@@ -13,10 +13,9 @@
     flex-direction: column;
     margin: 0 auto;
     z-index: 3;
-    text-align: center;
+    align-content: center;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 
     height: 50vh;
     width: 30rem;
