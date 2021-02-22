@@ -56,7 +56,6 @@ span {
     top: 7vh;
     left: -8vh;
     z-index: 0;
-    width: 24rem;
 }
 
 .resume-div {
@@ -67,28 +66,6 @@ span {
 .work-div {
     position: relative;
     top: -7vh;
-}
-
-.nav-text {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -67vh;
-    z-index: 2;
-    font-size: 13rem;
-    text-align: center;
-}
-
-.home {
-    position: relative;
-    top: 12vh;
-    left: -15%;
-}
-
-.work {
-    position: relative;
-    top: -12vh;
-    left: 1vw;
 }
 
 @media only screen and (max-width: 700px) {

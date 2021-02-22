@@ -9,13 +9,18 @@
     cursor: none;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     background: linear-gradient(to right, rgb(26, 26, 26), rgb(2, 2, 2));
     font-family: gothicus, serif;   
     font-weight: 400;
     font-style: normal;
     color: whitesmoke;
-    overflow-x: hidden;
+
+    position: relative;
 }
 
 .outer-container {
