@@ -1,6 +1,5 @@
 .projects {
     height: 100vh;
-    background: linear-gradient(to right, rgb(26, 26, 26), rgb(2, 2, 2));
 }
 
 .project-container {
@@ -98,8 +97,6 @@
     }
 
     .project-card {
-        position: relative;
         width: 25rem;
-        text-align: center;
     }
 }
