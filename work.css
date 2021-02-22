@@ -96,4 +96,10 @@
     .br8s-img {
         width: 14rem;
     }
+
+    .project-card {
+        position: relative;
+        width: 25rem;
+        text-align: center;
+    }
 }
