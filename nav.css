@@ -13,7 +13,7 @@
     flex-direction: column;
     margin: 0 auto;
     z-index: 3;
-    align-content: center;
+    text-align: center;
     justify-content: center;
     align-items: center;
 
@@ -55,6 +55,7 @@ span {
     top: 7vh;
     left: -8vh;
     z-index: 0;
+    cursor: pointer;
 }
 
 .resume-div {
@@ -65,6 +66,7 @@ span {
 .work-div {
     position: relative;
     top: -7vh;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 700px) {

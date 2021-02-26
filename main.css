@@ -6,12 +6,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: none;
 }
 
 html, body {
-    overflow-x: hidden;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -75,8 +74,9 @@ header {
 .arrow-link {
     display: flex;
     position: relative;
-    top: 30vh;
+    top: 40vh;
     justify-content: center;
+    cursor: pointer;
 }
 
 .arrow-img{
