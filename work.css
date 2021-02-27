@@ -1,5 +1,5 @@
 .projects {
-    height: 230vh;
+    height: 20vh;
     overflow: hidden;
 }
 
@@ -104,11 +104,11 @@
 
 @media only screen and (max-width: 800px) {
     .trackid-img {
-        width: 20rem;
+        width: 18rem;
     }
 
     .ballastpoint-img {
-        width: 23rem;
+        width: 21rem;
     }
 
     .stussy-img {
@@ -124,6 +124,6 @@
     }
 
     .project-card {
-        width: 25rem;
+        width: 100%;
     }
 }
