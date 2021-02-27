@@ -84,17 +84,7 @@ header {
     height: 4vh;
 }
 
-@media only screen and (max-width: 1170px) {
-    .projects {
-        height: 200vh;
-    }
-
-    .project-card {
-        min-height: 40vh;
-    }
-}
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .name {
         font-size: 6rem;
         top: 25vh;

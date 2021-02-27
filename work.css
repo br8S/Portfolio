@@ -1,5 +1,5 @@
 .projects {
-    height: 220vh;
+    height: 230vh;
     overflow: hidden;
 }
 
@@ -92,7 +92,17 @@
     top: 15vh;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1170px) {
+    .projects {
+        height: 240vh;
+    }
+
+    .project-card {
+        min-height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .trackid-img {
         width: 20rem;
     }
