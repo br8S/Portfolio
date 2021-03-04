@@ -84,11 +84,14 @@ header {
 }
 
 @media only screen and (max-width: 800px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
     .name {
         font-size: 6rem;
         top: 25vh;
     }
-    
     
     .first-name {
         position: relative;
