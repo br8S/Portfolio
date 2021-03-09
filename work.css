@@ -22,44 +22,38 @@
 
 .project-card {
     position: relative;
-    min-height: 38vh;
+    height: 38vh;
     width: 36rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .trackid-img {
-    position: relative;
-    top: 10vh;
-    height: auto;
-    width: 30rem;
+    height: 70px;
+    width: 480px;
 }
 
 .ballastpoint-img {
-    position: relative;
-    top: 5vh;
-    height: auto;
-    width: 33rem;
+    height: 92px;
+    width: 576px;
 }
 
 .stussy-img {
-    position: relative;
-    top: 2vh;
-    height: auto;
-    width: 15rem;
+    height: 240px;
+    width: 240px;
 }
 
 .caltrends-img {
-    position: relative;
-    top: 4vh;
-    height: auto;
-    width: 16rem;
+    height: 197px;
+    width: 256px;
 }
 
 .br8s-img {
-    position: relative;
-    top: 10vh;
-    height: auto;
-    width: 20rem;
+    height: 148px;
+    width: 320px;
 }
 
 .work-link {
@@ -92,6 +86,7 @@
 }
 
 @media only screen and (max-width: 1170px) {
+    /*
     .projects {
         height: 240vh;
     }
@@ -99,6 +94,8 @@
     .project-card {
         min-height: 40vh;
     }
+
+*/
 }
 
 @media only screen and (max-width: 800px) {
