@@ -6,9 +6,7 @@ var ballaspt = new hoverEffect({
     //displacementImage: "./images/halftone.jpg"
     displacementImage: "./images/heightMap.png",
     angle: Math.PI/8,
-    imagesRatio: 0.16,
-    speedIn: 1,
-    speedOut: 2
+    imagesRatio: 0.16
     
 });
 
@@ -18,9 +16,7 @@ var stussy = new hoverEffect({
     image1: "./images/stussy.png",
     image2: "./images/stussy.png",
     displacementImage: "./images/heightMap.png",
-    angle: Math.PI/8,
-    speedIn: 1,
-    speedOut: 2
+    angle: Math.PI/8
 });
 
 var br8s = new hoverEffect({
@@ -30,9 +26,7 @@ var br8s = new hoverEffect({
     image2: "./images/br8SLOGO.png",
     displacementImage: "./images/heightMap.png",
     angle: Math.PI/8,
-    imagesRatio: 0.46,
-    speedIn: 1,
-    speedOut: 2
+    imagesRatio: 0.46
 });
 
 var caltrends = new hoverEffect({
@@ -42,9 +36,7 @@ var caltrends = new hoverEffect({
     image2: "./images/CALTRENDS.png",
     displacementImage: "./images/heightMap.png",
     angle: Math.PI/8,
-    imagesRatio: 0.77,
-    speedIn: 1,
-    speedOut: 2
+    imagesRatio: 0.77
 });
 
 var trackid = new hoverEffect({
@@ -54,7 +46,5 @@ var trackid = new hoverEffect({
     image2: "./images/TRACKID.png",
     displacementImage: "./images/heightMap.png",
     angle: Math.PI/8,
-    imagesRatio: 0.15,
-    speedIn: 1,
-    speedOut: 2
+    imagesRatio: 0.15
 });
