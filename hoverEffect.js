@@ -3,7 +3,6 @@ var ballaspt = new hoverEffect({
     intensity: 0.4,
     image1: "./images/ballast_point_logo.png",
     image2: "./images/ballast_point_logo.png",
-    //displacementImage: "./images/halftone.jpg"
     displacementImage: "./images/heightMap.png",
     angle: Math.PI/8,
     imagesRatio: 0.16
