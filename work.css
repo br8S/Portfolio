@@ -56,48 +56,6 @@
     width: 320px;
 }
 
-.work-link {
-    visibility: hidden;
-}
-
-.trackid-links {
-    position: relative;
-    top: 20vh;
-}
-
-.ballastpoint-links {
-    position: relative;
-    top: 13vh;
-}
-
-.stussy-links {
-    position: relative;
-    top: 3vh;
-}
-
-.caltrends-links {
-    position: relative;
-    top: 10vh;
-}
-
-.br8s-links {
-    position: relative;
-    top: 15vh;
-}
-
-@media only screen and (max-width: 1170px) {
-    /*
-    .projects {
-        height: 240vh;
-    }
-
-    .project-card {
-        min-height: 40vh;
-    }
-
-*/
-}
-
 @media only screen and (max-width: 800px) {
     .trackid-img {
         height: 49.5px;
