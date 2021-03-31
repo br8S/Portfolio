@@ -3,7 +3,6 @@
 }
 
 .nav-bar {
-    height: 50vh;
     z-index: 3;
 }
 
@@ -72,9 +71,5 @@ span {
 @media only screen and (max-width: 800px) {
     span {
         font-size: 110px;
-    }
-
-    .nav-zones {
-        top: 30vh;
     }
 }
