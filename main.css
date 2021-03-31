@@ -55,7 +55,7 @@ header {
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 20vh;
+    top: 15vh;
     justify-content: center;
 }
 
@@ -72,14 +72,13 @@ header {
 .arrow-link {
     display: flex;
     position: relative;
-    top: 30vh;
+    top: 27vh;
     justify-content: center;
     cursor: pointer;
 }
 
 .arrow-img{
-    transform: rotate(90deg);
-    height: 4vh;
+    height: 3rem;
 }
 
 @media only screen and (max-width: 800px) {
