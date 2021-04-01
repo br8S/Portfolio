@@ -1,3 +1,13 @@
+gsap.from(".nav-zones",{
+    scrollTrigger: {
+        trigger: '.nav-zones',
+        start: "center center"
+    },
+    duration: 0.8,
+    opacity: 0,     
+    ease: Expo.easeInOut
+}) 
+
 gsap.from(".cacti-logo",{
     scrollTrigger: {
         trigger: '.cacti-logo',
