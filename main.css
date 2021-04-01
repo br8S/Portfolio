@@ -1,4 +1,6 @@
-@import url("http://typekit.com/eulas/00000000000000007735c847");
+/* @import url("http://typekit.com/eulas/00000000000000007735c847"); */
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Trade+Winds&display=swap');
 @import url("nav.css");
 @import url("work.css");
 
@@ -14,7 +16,10 @@ html, body {
 
 body {
     background: linear-gradient(to right, rgb(26, 26, 26), rgb(2, 2, 2));
-    font-family: gothicus, serif;   
+    /* font-family: gothicus, serif; */  
+    font-family: 'Special Elite', cursive;
+    font-family: 'Pirata One', cursive;
+    font-family: 'Trade Winds', cursive;
     font-weight: 400;
     font-style: normal;
     color: whitesmoke;
@@ -55,7 +60,7 @@ header {
 }
 
 .name {
-    font-size: 13rem;
+    font-size: 10rem;
     position: relative;
     top: 20vh;
     text-align: center;

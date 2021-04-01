@@ -23,15 +23,15 @@
 
 span {
     display: inline-block;
-    font-family: gothicus, serif;   
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
-    font-size: 180px;
+    font-size: 160px;
     text-transform: lowercase;
     pointer-events: none;
     transition: transform 0.1s linear;
 }
 
+/*
 .cursor {
     z-index: 4;
     pointer-events: none;
@@ -48,10 +48,11 @@ span {
 .link-grow {
     transform: scale(5);
 }
+*/
 
 .home-div {
     position: relative;
-    top: 7vh;
+    top: 10vh;
     left: -8vh;
     z-index: 0;
     cursor: pointer;
@@ -64,12 +65,20 @@ span {
 
 .work-div {
     position: relative;
-    top: -7vh;
+    top: -10vh;
     cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
     span {
         font-size: 110px;
+    }
+
+    .home-div {
+        top: 7vh;
+    }
+    
+    .work-div {
+        top: -7vh;
     }
 }
