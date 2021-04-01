@@ -4,7 +4,6 @@ gsap.from(".cacti-logo",{
         start: "top center"
     },
     x: 200,
-    pin: true,
     duration: 0.5,
     opacity: 0,     
     ease: Expo.easeInOut
