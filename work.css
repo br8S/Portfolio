@@ -49,7 +49,6 @@
     width: 50%;
 }
 
-
 @media only screen and (max-width: 800px) {
     .project-card {
         height: 35vh;

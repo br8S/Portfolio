@@ -2,12 +2,14 @@ let mouseCursor = document.querySelector('.cursor')
 let socialLinks = document.querySelectorAll('.links')
 let navMove = document.querySelectorAll('.nav-move')
 
+/*
 window.addEventListener('mousemove', cursor)
 
 function cursor(e){
       mouseCursor.style.top = e.pageY + 'px';
       mouseCursor.style.left = e.pageX + 'px';
 }
+*/
 
 
 socialLinks.forEach(link => {

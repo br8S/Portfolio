@@ -10,7 +10,7 @@ var tl = new gsap.from(".name > div", 2, {
     opacity: 0,     
     y: 0,
     ease: Expo.easeInOut,
-    delay: 4.2
+    delay: 3.2
 }, 0.1);
 
 var tl = new gsap.from(".social-links > a", 2, {
@@ -18,12 +18,12 @@ var tl = new gsap.from(".social-links > a", 2, {
     y: 30,
     stagger: 0.2,
     ease: Expo.easeInOut,
-    delay: 4.6
+    delay: 3.6
 }, 0.1);
 
 var tl = new gsap.from(".arrow-link > img", 2, {
     opacity: 0,     
     y: 30,
     ease: Expo.easeInOut,
-    delay: 5
+    delay: 4
 }, 0.1);
